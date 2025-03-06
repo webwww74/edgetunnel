@@ -2,7 +2,7 @@
 import { connect } from 'cloudflare:sockets';
 
 let userID = '';
-let proxyIP = '';
+let proxyIP = '172.67.153.253104.21.90.78';
 //let sub = '';
 let subConverter = atob('U1VCQVBJLkNNTGl1c3Nzcy5uZXQ=');
 let subConfig = atob('aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL0FDTDRTU1IvQUNMNFNTUi9tYXN0ZXIvQ2xhc2gvY29uZmlnL0FDTDRTU1JfT25saW5lX01pbmlfTXVsdGlNb2RlLmluaQ==');
@@ -32,7 +32,7 @@ let remarkIndex = 1;//CSV备注所在列偏移量
 let FileName = atob('ZWRnZXR1bm5lbA==');
 let BotToken;
 let ChatID;
-let proxyhosts = [172.67.153.253;104.21.90.78];
+let proxyhosts = [];
 let proxyhostsURL = '';
 let RproxyIP = 'false';
 const httpPorts = ["8080", "8880", "2052", "2082", "2086", "2095"];
