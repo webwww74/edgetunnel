@@ -32,7 +32,7 @@ let remarkIndex = 1;//CSV备注所在列偏移量
 let FileName = atob('ZWRnZXR1bm5lbA==');
 let BotToken;
 let ChatID;
-let proxyhosts = [];
+let proxyhosts = [xn--b6gac.eu.org];
 let proxyhostsURL = '';
 let RproxyIP = 'false';
 const httpPorts = ["8080", "8880", "2052", "2082", "2086", "2095"];
